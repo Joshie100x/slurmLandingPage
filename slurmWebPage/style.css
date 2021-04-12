@@ -1,0 +1,39 @@
+.navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+    background-color: #0f0f0f;
+}
+
+nav {
+    background-color: #0f0f0f;
+}
+
+body {
+    background-color: #0f0f0f;
+    font-family: 'Space Mono', monospace;
+}
+
+.col-md-6 {
+    color: white
+}
+
+.form {
+    color: white;
+    align-content: center;
+}
+
+.navbar-brand {
+    background-color: #0f0f0f;
+ 
+}
+
+.jumbotron {
+    background-image: url(https://uploads-ssl.webflow.com/6057dac172a8dc510667aaf2/606209429e69318abeefce3a_Slurm_Wormulon.jpeg);
+}
+
+form {
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
