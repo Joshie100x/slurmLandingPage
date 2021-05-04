@@ -18,3 +18,25 @@ img {
 nav {
     background-color: #e93330;
 }
+
+form {
+    background-color: #e93330;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5%;
+    padding: 50px;
+
+}
+
+input {
+    margin: 10px;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5%;
+}

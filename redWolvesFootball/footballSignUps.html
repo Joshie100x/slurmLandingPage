@@ -16,7 +16,7 @@
 </head>
   <body>
     
-    <nav class="navbar navbar-dark bg-primary">
+    <nav class="navbar navbar-dark" style="background-color: #e93330;">
         <!-- Navbar content -->
         <a class="navbar-brand" href="#">
             <img src="https://uploads-ssl.webflow.com/6057dac172a8dc510667aaf2/60887a296cd41475555b8249_Pic-5.png" width="30" height="30" alt="" loading="lazy">
@@ -62,9 +62,11 @@
         
         <div class="row">
             <div class="jumbotron">
-                <h1>Red Wolves High School Football Sign-Ups!</h1>
-                <p>The Red Wolves are interested in gaining students from the ages of 10-13 to recruit for their summer flag football league.</p>
-                <button type="button" class="btn btn-outline-danger">Danger</button>
+                <div class="content">
+                    <h1>Red Wolves High School Football Sign-Ups!</h1>
+                    <p>The Red Wolves are interested in gaining students from the ages of 10-13 to recruit for their summer flag football league.</p>
+                    <button type="button" class="btn btn-outline-danger">Danger</button>
+                </div>
             </div>
         </div>
 
@@ -95,7 +97,32 @@
            </div>
        </div>
 
+       <form>
 
+        <h2> Sign Up Here!</h2>
+        <input class="textInput" placeholder="First Name">
+        <input class="textInput" placeholder="Last Name">
+        <br>
+        <h4>Street Address</h4>
+        <input class="textInput" placeholder="Street">
+        <input class="textInput" placeholder="Unit/Apartment No.">
+        <input class="textInput" placeholder="City">
+        <input class="textInput" placeholder="State">
+        <input class="textInput" placeholder="Zip Code">
+        
+        <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Choose Position</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+            <input type="text" placeholder="Write Your Preferred Postion" class="form-control" aria-label="Text input with dropdown button">
+        </div>
+
+       </form>
 
 
 
